@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Playwrite MX", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: darkgrey;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 1rem;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(101, 101, 106, 1) 35%,
+    rgba(211, 214, 214, 1) 100%
+  );
+  border-radius: 1.5rem;
+  padding: 1rem;
+  width: 50%;
+  height: 100%;
+  box-shadow: black 1rem 1rem 3rem;
+}
+
+.img-card {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border-radius: 0.65rem;
+  margin-top: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+  text-align: center;
+  color: lightgray;
+}
+
+.designer-description {
+  font-size: 1.2rem;
+  margin: 1rem 1rem;
+  text-align: center;
+  font-weight: 300;
+  color: white;
+}
+
+.designer-quote {
+  font-size: 1rem;
+  margin: 0.8rem 1rem 0.8rem 10rem;
+  text-align: center;
+  font-style: italic;
+  color: black;
+}
+
+.card-button {
+  background-color: darkgray;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  box-shadow: black 1rem 1rem 3rem;
+}
